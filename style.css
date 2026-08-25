@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+}
+
+/*======================*/
+/* common styling start */
+/*======================*/
+
+.w-50 {
+  width: 50%;
+  float: left;
+}
+
+.line {
+  border-bottom: 1px solid #B4B4B4;
+  margin: 10px 0;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+
+/*======================*/
+/*  common styling End  */
+/*======================*/
+
+
+
+/*======================*/
+/*  header area start   */
+/*======================*/
+
+.main-header {
+  overflow: hidden;
+  padding-top: 70px;
+  background: #E5E5E5;
+  font-family: arial;
+  padding-bottom: 100px;
+}
+
+
+.main-header .facebook-image img {
+  width: 150px;
+}
+
+.main-header .facebook-connect h3 {
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #505058;
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+.main-header .login-form {
+  background: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.main-header .login-form input {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.main-header .login-form input[type="text"],
+.main-header .login-form input[type="password"] {
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+}
+
+.main-header .login-form input[type="text"]:focus,
+.main-header .login-form input[type="password"]:focus{
+  border: 3px solid #1A2AD8;
+}
+
+::placeholder {
+  color: #9E9E9E;
+}
+.main-header .login-form input[type="submit"] {
+  background: #0651BA;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main-header .login-form a {
+  display: inline-block;
+  text-decoration: none;
+ 
+}
+
+
+.main-header .login-form .forgot {
+  text-decoration: none;
+  color: #016CFF;
+}
+
+.main-header .login-form .forgot:hover {
+  text-decoration: underline;
+}
+
+
+.main-header .login-form .account {
+  background: #08BE29;
+  border-radius: 3px;
+}
+
+.main-header .login-form a.account {
+  padding: 10px 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main-header .create-page {
+  margin-top: 0;
+  font-size: 9px;
+  text-align: center;
+  
+}
+
+.main-header .create-page a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+
+
+/*======================*/
+/*   header area end    */
+/*======================*/
+
+
+/*======================*/
+/*  footer area start   */
+/*======================*/
+
+.footer-area {
+  overflow: hidden;
+/*  padding: 30px 30px;*/
+  font-family: arial;
+}
+
+.footer-area .language {
+  
+}
+
+.footer-area .language ul  {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.footer-area .language  ul a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
+.footer-area .language ul li {
+  float: left;
+  color: #9E9E9E;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.footer-area .language  ul a.add {
+  background: #C1C2CA;
+  padding: 3px 5px;
+  color: #000000;
+  border: 1px solid #8E8F94;
+  box-sizing: border-box;
+}
+.footer-area .line {
+ width: 82%;
+ margin: auto;
+}
+
+.footer-area .sign-up ul a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
+.footer-area .sign-up ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.footer-area .sign-up ul li {
+  float: left;
+  font-size: 13px;
+  padding-right: 10px;
+}
+
+.footer-area .copy {
+  color:#94959D;
+  font-size: 13px;
+  margin-left: 40px;
+}
+.container_one {
+  width: 90%;
+  margin: auto;
+}
+
+
+/*======================*/
+/*   footer area end    */
+/*======================*/
